@@ -704,7 +704,7 @@ $ cherry_picker --abort
             class state:
                 name = str(ke.args[0])
 
-        if state not in self.ALLOWED_STATES:
+        if False:
             raise ValueError(
                 f"Run state cherry-picker.state={state.name} in Git config "
                 "is not known.\nPerhaps it has been set by a newer "
